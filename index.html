@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gareeb Nawaz Maszid</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Assets/Logo.png" type="image/x-icon">
+    <script src="./index.js" defer></script>
+    
+    
+
+
+    
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img src="./Assets/Logo.png" id=  'imgLogo' alt="">
+        </div>
+        <h1 id="textHeader">Reciept <span id="generateSpan">Generator</span></h1>
+       
+    </div>
+    
+    
+  <!-- Input Card -->
+  
+  <div class="form-container">
+    <h1>Donation Form</h1>
+    <input type="text" id="fullname" placeholder="Full Name / पूरा नाम"  value="">
+    <input type="number" placeholder="Mobile Number / मोबाइल नंबर" id = 'number' value="">
+    <input type="text" placeholder="Via Person Name" id="via-person">
+    <input type="text" placeholder="Address" id="address-text">
+    <input type="number" id="amount" placeholder="Amount" required>
+    <input type="text" placeholder="Payment Method" id="payment-method">
+    <input type="text" placeholder="Admin login Code" id="login-code">
+    <button class="createpdf">Generate</button>
+</div>
+
+
+   
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!-- <div class="myIframe">
+<iframe id="myIframe" width="500" height="500"></iframe></div> -->
+<br><br><br><br><br>
+<img id="myImage" src="./Assets/header-min.png" style="display:none;">
+<img id="mySign" src="./Assets/faisalalai-min.png" style="display:none;">
+<img id="myStamp" src="./Assets/stamporg.png" style="display:none;">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+</body>
+</html>
