@@ -33,11 +33,11 @@ Here are some screenshots of the Receipt Generator in action:
 
 ### 1. Donation Form
 _A simple and clean form where users can input donor details and donation amount._
-![Donation Form](path-to-your-screenshot1.png)
+![Donation Form](form-actual.png)
 
 ### 2. Generated Receipt (PDF Preview)
 _A sample of the auto-generated PDF receipt including all donor and donation details._
-![PDF Receipt Preview](path-to-your-screenshot2.png)
+![PDF Receipt Preview](pdf-output.png)
 
 
 
